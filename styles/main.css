@@ -21,7 +21,7 @@ header img{
     float:left;
     white-space: 1;
 }
-a:link{
+section a{
 color:maroon;
 }
 a:focus,a:hover{
