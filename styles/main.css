@@ -34,6 +34,9 @@ aside  h1{
 aside a {
     color:steelblue;
 }
+aside a:link{
+    color:steelblue;
+}
 aside a:hover{
     color:maroon;
 }
