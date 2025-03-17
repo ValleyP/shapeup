@@ -3,17 +3,20 @@ body{
 }
 a{
     font-weight: bold;
-  
+  color:maroon;
 }
 
 a:visited{
     color:maroon;
 }
+a:focus,a:hover{
+    color:steelblue;
+}
 
  h1{
     font-style: italic;
     color:steelblue;
-    font-size: 150%;
+    font-size: 200%;
     }
 
     section h3{
@@ -26,6 +29,3 @@ header img{
     white-space: 10;
 }
 
-a:focus,a:hover{
-    color:steelblue;
-}
