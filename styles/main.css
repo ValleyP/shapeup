@@ -20,12 +20,10 @@ a:focus,a:hover{
     }
 
     section h3{
-        font-style: italic;
-        color:steelblue;
         font-size: medium;
         }
 header img{
     float:left;
-    white-space: 10;
+    text-indent: 50px;
 }
 
