@@ -34,7 +34,7 @@ aside > h1{
 aside a {
     color:steelblue;
 }
-aside a:hover, a:focus{
+aside a:hover, aside a:focus{
     color:maroon;
 }
 aside ul{
