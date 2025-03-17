@@ -26,3 +26,9 @@ header img{
     text-indent: 50px;
 }
 
+aside h1{
+    color:maroon;
+}
+aside ul{
+    line-height: 1.5;
+}
