@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-weight: bold;
+    
+}
+h1{
+    font-size: medium;
+}
+header h1,h2,h3{
+font-style: italic;
+color:steelblue;
+font-size: medium;
+}
+header img{
+    float:left;
+    white-space: 1;
+}
+a:link{
+color:maroon;
+}
+a:focus,a:hover{
+    color:steelblue;
+}
+aside{
+    color:maroon;
+}
