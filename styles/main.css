@@ -28,7 +28,7 @@ header img{
     text-indent: 50px;
 }
 
-aside > h1{
+aside  h1{
     color:maroon;
 }
 aside a {
@@ -37,7 +37,7 @@ aside a {
 aside a:hover, aside a:focus{
     color:maroon;
 }
-aside ul{
+aside li{
     line-height: 1.5;
 }
 footer{
