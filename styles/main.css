@@ -7,13 +7,13 @@ a{
 section > a{
     color: maroon;
 }
-a:link{
+section a:link{
     color:maroon;
 }
-a:visited{
+section a:visited{
     color:maroon;
 }
-a:focus,a:hover{
+section a:focus,a:hover{
     color:steelblue;
 }
 
