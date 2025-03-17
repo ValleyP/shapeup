@@ -3,7 +3,9 @@ body{
 }
 a{
     font-weight: bold;
-    color:maroon;
+}
+section > a{
+    color: maroon;
 }
 a:link{
     color:maroon;
