@@ -19,7 +19,7 @@ a{
         }
 header img{
     float:left;
-    white-space: 1;
+    white-space: 10;
 }
 
 a:focus,a:hover{
