@@ -4,7 +4,7 @@ body{
 a{
     font-weight: bold;
 }
-section > a{
+section  a{
     color: maroon;
 }
 section a:link{
@@ -28,7 +28,7 @@ header img{
     text-indent: 50px;
 }
 
-aside > h1{
+aside  h1{
     color:maroon;
 }
 aside a {
