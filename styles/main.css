@@ -21,12 +21,7 @@ header img{
     float:left;
     white-space: 1;
 }
-section a{
-color:maroon;
-}
+
 a:focus,a:hover{
     color:steelblue;
-}
-aside{
-    color:maroon;
 }
