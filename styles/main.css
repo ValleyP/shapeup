@@ -3,11 +3,9 @@ body{
 }
 a{
     font-weight: bold;
-    color:maroon;
+  
 }
-a:link{
-    color:maroon;
-}
+
 a:visited{
     color:maroon;
 }
