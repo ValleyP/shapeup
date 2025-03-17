@@ -31,6 +31,16 @@ header img{
 aside > h1{
     color:maroon;
 }
+aside a {
+    color:steelblue;
+}
+aside a:hover, a:focus{
+    color:maroon;
+}
 aside ul{
     line-height: 1.5;
+}
+footer{
+    font-size: small;
+    text-align: center;
 }
