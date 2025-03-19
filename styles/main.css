@@ -7,9 +7,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     width:700px;
     border: 2px solid steelblue;
-    box-shadow:8px black;
-    margin:1em auto;
-    padding: 2em;
+    box-shadow:0 0 10px 5px rgba(0 ,0,0,0.5);
+    margin :1em auto;
 }
 a{
     font-weight: bold;
@@ -29,8 +28,9 @@ section a:focus,a:hover{
 
 header{
     background-image: linear-gradient(to bottom,white,lightsteelblue);
-    border-bottom:2px solid lightsteelblue;
-    margin:2em;
+    border-bottom:2px solid steelblue;
+    height:90px;
+    padding: 2em;
 }
 
 header > h1{
@@ -42,6 +42,10 @@ header > h1{
 header img{
     float:left;
     text-indent: 50px;
+}
+section{
+    margin:1em;
+    padding:1em;
 }
 
 aside{
@@ -72,6 +76,7 @@ aside ul{
     list-style-position: inside;
 }
 footer{
+    padding:1em;
     font-size: small;
     text-align: center;
     background-color: steelblue;
