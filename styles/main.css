@@ -8,7 +8,7 @@ body{
     width:700px;
     border: solid steelblue;
     box-shadow:8px black;
-    margin: 0 auto;
+    margin: auto;
 }
 a{
     font-weight: bold;
@@ -27,7 +27,7 @@ section a:focus,a:hover{
 }
 
 header{
-    background: linear-gradient(white,none,lightsteelblue,none);
+    background-image: linear-gradient(white,none,lightsteelblue,none);
     border-bottom:solid lightsteelblue;
 }
 
@@ -43,7 +43,8 @@ header img{
 }
 
 aside{
-    border-radius: 2em steelblue;
+    border:2px solid steelblue;
+    border-radius: 2em;
 }
 
 aside  h1{
