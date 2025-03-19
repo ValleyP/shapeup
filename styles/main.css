@@ -8,7 +8,7 @@ body{
     width:700px;
     border: 2px solid steelblue;
     box-shadow:8px black;
-    margin:2px auto;
+    margin:0 auto;
     padding: 10px;
 }
 a{
@@ -47,6 +47,8 @@ header img{
 aside{
     border:2px solid steelblue;
     border-radius: 2em;
+    margin:2px;
+    padding: 2px;
 }
 
 aside  h1{
