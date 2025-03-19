@@ -6,9 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     width:700px;
-    border: solid steelblue;
+    border: 2px solid steelblue;
     box-shadow:8px black;
-    margin: auto;
+    margin:2px auto;
 }
 a{
     font-weight: bold;
@@ -27,7 +27,7 @@ section a:focus,a:hover{
 }
 
 header{
-    background-image: linear-gradient(white,none,lightsteelblue,none);
+    background-image: linear-gradient(to bottom,white,lightsteelblue);
     border-bottom:solid lightsteelblue;
 }
 
