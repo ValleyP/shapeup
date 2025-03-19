@@ -27,7 +27,7 @@ section a:focus,a:hover{
 }
 
 header{
-    background: linear-gradient(to bottom,white,lightsteelblue);
+    background: linear-gradient(white,none,lightsteelblue,none);
     border-bottom:solid lightsteelblue;
 }
 
