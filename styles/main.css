@@ -70,6 +70,7 @@ aside ul{
     list-style-position: inside;
 }
 footer{
+    padding-top: 2em;
     font-size: small;
     text-align: center;
     background-color: steelblue;
