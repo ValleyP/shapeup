@@ -9,6 +9,7 @@ body{
     border: 2px solid steelblue;
     box-shadow:8px black;
     margin:1em auto;
+    padding: 2em;
 }
 a{
     font-weight: bold;
@@ -29,7 +30,7 @@ section a:focus,a:hover{
 header{
     background-image: linear-gradient(to bottom,white,lightsteelblue);
     border-bottom:2px solid lightsteelblue;
-    margin-bottom: 2em;
+    margin:2em;
 }
 
 header > h1{
@@ -71,7 +72,6 @@ aside ul{
     list-style-position: inside;
 }
 footer{
-    padding-top: 2em;
     font-size: small;
     text-align: center;
     background-color: steelblue;
