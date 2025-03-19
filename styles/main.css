@@ -47,9 +47,9 @@ header img{
 aside{
     border:2px solid steelblue;
     border-radius: 2em;
-    margin:2px;
-    padding: 2px;
+    padding: 4px;
 }
+
 
 aside  h1{
     color:maroon;
@@ -68,6 +68,7 @@ aside a:focus{
 }
 aside ul{
     line-height: 1.5;
+    list-style-position: inside;
 }
 footer{
     font-size: small;
