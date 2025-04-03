@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    display: flex;
+    font-size: 1vw;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    margin :1em auto;
+    height: 90%;
+}
+
+a{
+    font-weight: bold;
+}
+
+section a{
+    color:maroon;
+}
+section a:link{
+    color:maroon;
+}
+section a:visited{
+    color:maroon;
+}
+section a:focus{
+    color:steelblue;
+}
+section a:hover{
+    color: steelblue;
+}
+header{
+    background-image: linear-gradient(to bottom,white,lightsteelblue);
+    border-bottom:2px solid steelblue;
+    padding-bottom: 1.5em;
+}
+
+header > h1{
+    font-style: italic;
+    color:steelblue;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    }
+
+header img{
+    float:left;
+    text-indent: 50px;
+    max-width: 120px;
+    min-width: 100px;
+}
+section{
+    flex-basis: 80%;
+    float:left;
+    margin:1em;
+    padding:1em;
+}
+
+aside{
+    flex-basis: 20%;
+ float:right;
+    border:2px solid steelblue;
+    border-radius: 2em;
+    padding:1em;
+    margin:1em;
+    height:50%;
+}
+
+
+aside  h1{
+    color:maroon;
+}
+aside a {
+    color:steelblue;
+}
+aside a:link{
+    color:steelblue;
+}
+aside a:hover{
+    color:maroon;
+}
+aside a:focus{
+    color:maroon;
+}
+aside ul{
+    line-height: 1.5;
+    list-style-position: inside;
+    padding:2px;
+}
+footer{
+    clear:both;
+    padding:1em;
+    font-size: small;
+    text-align: center;
+    background-color: steelblue;
+    & p{
+        color:white;
+    }
+}
+
+nav.navbar ul.submenu li:hover a {
+    text-decoration: underline;
+}
+
+nav.navbar ul.submenu li a {
+  display: block;
+  margin:0;
+}
+
+nav.navbar ul.submenu li a{
+	padding:10px;
+}
+
+
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu li{
+		flex-basis: 20%;
+	}
+	.menu li:has(.submenu) {
+		position: relative;
+	  }
+	  .menu li a small {
+		margin-left: 5px; 
+	  }
+	  
+	  .menu li:hover .submenu {
+		display: block;
+		padding: 12px;
+	  }
+	  .submenu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: steelblue;
+		color: white;
+		display: none; 
+		text-align: left;
+	  }
+
+
+	  .navbar a{
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+		color: white;
+		  }
+
+	.navbar ul{
+	margin: 0;
+	  padding: 0;
+	  list-style-type: none;
+		}
+
+.navbar{
+	background-color: steelblue;
+	text-align: center;
+}
+
+.navbar a.current{
+	border: 2.5px solid white; 
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 8px;
+  margin: 0.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
