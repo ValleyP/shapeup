@@ -15,6 +15,14 @@ body{
     height: 90%;
 }
 
+@font-face{
+    font-family: american cap;
+src : url("American\ Captain.ttf");
+}
+header h1{
+    font-family: american cap;
+}
+
 a{
     font-weight: bold;
 }
@@ -55,14 +63,85 @@ header img{
     min-width: 100px;
 }
 section{
+   
     flex-basis: 80%;
-    float:left;
-    margin:1em;
-    padding:1em;
+    margin: 1em;
+    padding: 1em;
+    line-height: 1;
+    & li{
+        list-style-type: square;
+        padding:.10em;
+        margin:1em;
+        margin-left: 2.5em;
+    }
+     h1,h3{
+        padding-bottom:.5em;
+        padding-top:.5em;
+    }
+    & img {
+        display: block;
+          width: 400px; /* Sets the width to 300 pixels */
+
+        
+	
+}
+    & figure{
+        margin: 0; /* Remove default figure margins */
+        max-width: 200px; /* Adjust as needed */
+        height: auto;
+	}
+	& figcaption{
+font-weight: bold;
+border-bottom: 2px solid steelblue;
+clear: left; /* Ensure caption appears below the floated image */
+        width: fit-content; /* Make the caption width fit its content */
+	}
+   
+
+}
+p {
+
+    padding-left: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+}
+h3 {
+    clear: left; /* or clear: both; */
+    padding-bottom: .5em;
+    padding-top: .5em;
 }
 
+
+
+article {
+    display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  overflow: auto;
+	& img {
+		border: 1px solid var(--dark);
+		margin-right:1em;
+        height: auto;
+        display: block;
+	}
+    & figure{
+        margin: 0;
+        max-width: 200px;
+        height: auto;
+    }
+    & figure img{
+        display: block;
+        max-width: 160%;
+        height: auto;
+    }
+}
+
+article .text-content {
+    flex: 1;
+  }
+
 aside{
-    flex-basis: 20%;
+    flex-basis:20%;
  float:right;
     border:2px solid steelblue;
     border-radius: 2em;
@@ -198,4 +277,3 @@ aside ul li {
     background-position: 0 0.5em;
     background-size: 1em;
 }
-
