@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
+    display: flex;
+    font-size: 1vw;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    margin :1em auto;
+    height: 90%;
+}
+
+@font-face{
+    font-family: american cap;
+src : url("American\ Captain.ttf");
+}
+header h1{
+    font-family: american cap;
+}
+
+a{
+    font-weight: bold;
+}
+
+section a{
+    color:maroon;
+}
+section a:link{
+    color:maroon;
+}
+section a:visited{
+    color:maroon;
+}
+section a:focus{
+    color:steelblue;
+}
+section a:hover{
+    color: steelblue;
+}
+header{
+    background-image: linear-gradient(to bottom,white,lightsteelblue);
+    border-bottom:2px solid steelblue;
+    padding-bottom: 1.5em;
+}
+
+header > h1{
+    font-style: italic;
+    color:steelblue;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    }
+
+header img{
+    float:left;
+    text-indent: 50px;
+    max-width: 120px;
+    min-width: 100px;
+}
+section{
+   
+    flex-basis: 80%;
+    margin: 1em;
+    padding: 1em;
+    line-height: 1;
+    & li{
+        list-style-type: square;
+        padding:.10em;
+        margin:1em;
+        margin-left: 2.5em;
+    }
+     h1,h3{
+        padding-bottom:.5em;
+        padding-top:.5em;
+        color:maroon;
+    }
+    & img {
+        display: block;
+          width: 400px; /* Sets the width to 300 pixels */
+
+        
+	
+}
+    & figure{
+        height: auto;
+        max-width: 100%;
+	}
+	& figcaption{
+font-weight: bold;
+	}
+   
+
+}
+p {
+
+    padding-left: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+}
+h3 {
+    clear: left; /* or clear: both; */
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+
+
+article {
+    display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  overflow: auto;
+	& img {
+		border: 1px solid var(--dark);
+		margin-right:1em;
+        height: auto;
+        display: block;
+	}
+    & figure{
+        margin: 0;
+        max-width: 100px;
+        height: auto;
+    }
+    & figure img{
+        display: block;
+        max-width: 160%;
+        height: auto;
+    }
+}
+
+article .text-content {
+    flex: 1;
+  }
+
+aside{
+    flex-basis:20%;
+ float:right;
+    border:2px solid steelblue;
+    border-radius: 2em;
+    padding:1em;
+    margin:1em;
+    height:50%;
+}
+
+
+aside  h1{
+    color:maroon;
+}
+aside a {
+    color:steelblue;
+}
+aside a:link{
+    color:steelblue;
+}
+aside a:hover{
+    color:maroon;
+}
+aside a:focus{
+    color:maroon;
+}
+aside ul{
+    line-height: 1.5;
+    list-style-position: inside;
+    padding:2px;
+    list-style-type: none;
+}
+footer{
+    clear:both;
+    padding:1em;
+    font-size: small;
+    text-align: center;
+    background-color: steelblue;
+    & p{
+        color:white;
+    }
+}
+
+nav.navbar ul.submenu li:hover a {
+    text-decoration: underline;
+}
+
+nav.navbar ul.submenu li a {
+  display: block;
+  margin:0;
+}
+
+nav.navbar ul.submenu li a{
+	padding:10px;
+}
+
+section figcaption {
+  display: block;
+  width: 100%; /* Make it take the full width of its parent */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+table {
+    width:100%;
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+
+		th, td {
+            padding-left: 10px ;
+			
+			text-align: left;
+           
+		}
+
+        td, div{
+            padding-top: 2px;
+            padding-bottom:3px;
+        }
+
+    tbody th.first{
+        vertical-align: top;
+        padding-top:3.5px;
+    }
+
+    thead th{
+        padding-top: 3.5px;
+        padding-bottom:12px;
+        color:white;
+    }
+    thead{
+        background-color: steelblue;
+    }
+     tbody td:last-child {
+            text-align: right;
+            padding-right:5px;
+        }
+        .right{
+            text-align: right;
+            padding-right: 1em;
+        }
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu li{
+		flex-basis: 20%;
+	}
+	.menu li:has(.submenu) {
+		position: relative;
+	  }
+	  .menu li a small {
+		margin-left: 5px; 
+	  }
+	  
+	  .menu li:hover .submenu {
+		display: block;
+		padding: 12px;
+	  }
+	  .submenu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: steelblue;
+		color: white;
+		display: none; 
+		text-align: left;
+	  }
+
+
+	  .navbar a{
+		display: block;
+		padding: 1em;
+		text-decoration: none;
+		color: white;
+		  }
+
+	.navbar ul{
+	margin: 0;
+	  padding: 0;
+	  list-style-type: none;
+		}
+
+.navbar{
+	background-color: steelblue;
+	text-align: center;
+}
+
+.navbar a.current{
+	border: 2.5px solid white; 
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 8px;
+  margin: 0.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+aside ul li:nth-child(1) {
+    background-image: url('../images/run-icon.png');
+}
+aside ul li:nth-child(2) {
+    background-image: url('../images/stretch-icon.png');
+}
+aside ul li:nth-child(3) {
+    background-image: url('../images/strength-icon.png');
+}
+aside ul li:nth-child(4) {
+    background-image: url('../images/cardio-icon.png');
+}
+aside ul li:nth-child(5) {
+    background-image: url('../images/yoga-icon.png');
+}
+aside ul li {
+    padding-left: 2em;
+    margin-bottom: .5em;
+    background-repeat: no-repeat;
+    background-position: 0 0.5em;
+    background-size: 1em;
+}
