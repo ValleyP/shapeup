@@ -4,7 +4,7 @@
 }
 
 main{
-    display: flex;
+    display: grid;
     font-size: 1vw;
 }
 
